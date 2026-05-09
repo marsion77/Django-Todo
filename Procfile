@@ -1,1 +1,1 @@
-web: gunicorn todo_project.wsgi --pythonpath todo_project
+web: cd todo_project && gunicorn todo_project.wsgi
